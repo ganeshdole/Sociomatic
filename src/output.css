@@ -640,6 +640,10 @@ body {
   margin-top: auto;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -850,6 +854,16 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -1027,6 +1041,14 @@ body {
 
   .sm\:min-h-\[420px\] {
     min-height: 420px;
+  }
+
+  .sm\:min-h-\[3000px\] {
+    min-height: 3000px;
+  }
+
+  .sm\:min-h-\[300px\] {
+    min-height: 300px;
   }
 
   .sm\:max-w-\[100px\] {
