@@ -4,7 +4,7 @@ import { GiLockSpy } from "react-icons/gi";
 import { BsCalendar2Heart } from "react-icons/bs";
 import HeroImg from "@/assets/images/hero.svg";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <section className="flex  flex-col sm:grid grid-cols-2  gap-2 px-3 sm:px-10 md:px-16 lg:px-32">
       <div className="col-end-3 row-span-full">
