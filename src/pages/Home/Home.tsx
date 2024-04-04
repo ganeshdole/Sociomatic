@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <section className="flex bg-[#ffbf22]">hello</section>
     </>
   );
 };
