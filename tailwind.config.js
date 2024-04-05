@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        contentCreation: "url('@/assets/content-creation.svg')",
+     },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
