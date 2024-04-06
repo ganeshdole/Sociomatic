@@ -5,19 +5,20 @@ import { Input } from "../ui/input";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Logo from "@/assets/images/logo.svg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="flex  flex-col items-center">
+    <div className="flex  flex-col items-center ">
       <img
         src={footerImage}
         alt="Footer Image"
-        className="block w-full sm:w-[50%]"
+        className="block w-full sm:w-[50%] z-10"
       />
-      <div className="w-full bg-[#ffbf22] mt-[-200px] z-[-10]">
+      <div className="w-full bg-[#ffbf22] mt-[-200px] ">
         <div className="flex m-32 gap-5">
-          <img src="https://placehold.co/38x63" alt="" />
+          <img src={Logo} alt="" className="w-[38px]" />
           <div>
             <h1 className="text-2xl leading-8 font-bold font-space">
               <Link to="/">Sociomatic</Link>
@@ -41,13 +42,16 @@ const Footer = () => {
               support@sociomatic.tech
             </Link>
           </div>
-          <div>
+          <div className="">
             <p className="font-semibold text-2xl">Quick Links</p>
-            <Link to="" className="underline">
-              <p className="mt-5">Terms & Conditions</p>
+            <Link
+              to="/terms-and-conditions"
+              className="underline cursor-pointer mt-5"
+            >
+              <p> Terms & Conditions</p>
             </Link>
-            <Link to="" className="underline">
-              <p>Privacy Policy</p>
+            <Link to="" className="underline nav">
+              Privacy Policy
             </Link>
           </div>
           <div>

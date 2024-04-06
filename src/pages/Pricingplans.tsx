@@ -107,7 +107,7 @@ const PricingPlans: React.FC = () => {
               <CardTitle className="text-xl font-extrabold">
                 Premium Plan
               </CardTitle>
-              <CardDescription className="text-6xl text-black font-bold text-white">
+              <CardDescription className="text-6xl font-bold text-white">
                 ₹1,50,000
               </CardDescription>
             </CardHeader>

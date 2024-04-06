@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "/Users/ganeshdole/Desktop/Programming/project/Sociomatic/src/components/ui/button.tsx";
+import Logo from "@/assets/images/logo.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +14,10 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-3 py-2 md:px-12 lg:px-10">
       <div className="flex items-center gap-2">
-        <img src="https://placehold.co/38x63" alt="Sociomatic Logo" />
+        <img src={Logo} alt="Sociomatic Logo" className="w-[38px]" />
         <div className="flex flex-col justify-center">
           <h1 className="text-2xl leading-8 font-bold font-space">
-            <Link to="/">Sociomatic</Link>
+            <Link to="/#services">Sociomatic</Link>
           </h1>
           <p className="text-sm font-normal leading-[17px]">
             Where Creativity Meets Strategy
@@ -27,12 +28,12 @@ const Navbar = () => {
       <div className="hidden md:flex items-center">
         <ul className="flex gap-4 items-center">
           <li>
-            <NavLink
-              to="#Services"
+            {/* <NavLink
+              to="/#services"
               className="font-semibold nav-NavLink transition-all duration-300 ease-in-out hover:text-green-500"
             >
               Services
-            </NavLink>
+            </NavLink> */}
           </li>
           <li>
             <NavLink

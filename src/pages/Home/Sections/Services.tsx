@@ -7,7 +7,7 @@ import BuitdForCreativity from "@/assets/images/buildforcreativity.svg";
 
 const Services: React.FC = () => {
   return (
-    <div className="px-3 sm:px-10 md:px-16 lg:px-32">
+    <div className="px-3 sm:px-10 md:px-16 lg:px-32" id="services">
       <div className="mt-32 mb-16">
         <h1 className="text-4xl">What We Offer</h1>
         <p className="max-w-[500px] mt-5">
