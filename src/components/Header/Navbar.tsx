@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "/Users/ganeshdole/Desktop/Programming/project/Sociomatic/src/components/ui/button.tsx";
 import Logo from "@/assets/images/logo.svg";
-
+import { Button } from "../ui/button";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
