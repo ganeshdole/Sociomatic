@@ -1,6 +1,8 @@
 import Hero from "./Sections/Hero";
+import PricingOptions from "./Sections/PricingOptions";
 import Section2 from "./Sections/Section-2";
 import Services from "./Sections/Services";
+import GetStarted from "./Sections/GetStarted";
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
       <Hero />
       <Section2 />
       <Services />
+      <PricingOptions />
+      <GetStarted />
     </>
   );
 };
