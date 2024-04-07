@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+## Table of Contents
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+1. [Installation](#installation)
+2. [Contributing](#contributing)
+3. [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+Leveraging modern web technologies such as React, TypeScript, and Tailwind CSS, we aim to deliver a visually appealing and efficient platform for managing social media accounts.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+To run the project locally, follow these steps:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository: `git clone `
+2. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+## Contributing
+
+We welcome contributions from the community to help improve our front-end project. If you'd like to contribute, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name: `git checkout -b feature/new-feature`.
+3. Make your changes and commit them with descriptive messages: `git commit -am 'Add new feature'`.
+4. Push your changes to your fork: `git push origin feature/new-feature`.
+5. Submit a pull request to the `main` branch of the original repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
